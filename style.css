@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  overflow: hidden
+}
+
+.container {
+  height: fit-content;
+  width: 70%;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.addTask input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 2%;
+}
+
+button {
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.taskCard {
+  display: none;
+}
+
+.taskCard p {
+  display: inline-block;
+  width: 80%;
+}
+
